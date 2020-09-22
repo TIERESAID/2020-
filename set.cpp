@@ -92,7 +92,7 @@ std::ostream &operator <<(std::ostream &ostr, const Tset &s){
             ch=',';
         }
     }
-    ostr<<"}";
+    ostr<<" }";
     return ostr;
 
 }
