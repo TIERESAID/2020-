@@ -18,6 +18,7 @@ int main(int argc, char* argv[]){
     // проверка до sqrt(n) и удаление кратных
     for (m=2; m<=n; m++)
         s.InsElem(m);
+    
         for (m=2; m*m<=n; m++)
             // если м в s, удаление кратных
         if(s.isMember(m))
